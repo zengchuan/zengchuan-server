@@ -16,16 +16,7 @@ fs.readdirSync('node_modules')
 module.exports = {
     cache: true,
     entry: {
-        // main: './build/dev'
         main: './src'
-        // ,
-        // vendor: [
-        //   'babel-polyfill',
-        //   'fbemitter',
-        //   'flux',
-        //   'react',
-        //   'react-dom'
-        // ]
     },
     output: {
         path: path.resolve(__dirname, './build'),
@@ -38,12 +29,6 @@ module.exports = {
             // exclude: /node_modules/,
             loader: 'ts-loader'
         }
-        //     ,
-        //     {
-        //     test: /\.js$/,
-        //     exclude: /node_modules/,
-        //     loader: 'babel-loader'
-        // }
         ]
     },
     plugins: [
