@@ -1,3 +1,9 @@
+####主要技术
+ - express
+ - mongodb
+ - typescript
+ - webpack
+
 ####创建工程
  - npm install
 
