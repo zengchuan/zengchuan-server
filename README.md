@@ -8,6 +8,6 @@
   - npm run nodemon
 
 ####打包
-  - npm run nodemon
+  - npm run bundle
 
 
